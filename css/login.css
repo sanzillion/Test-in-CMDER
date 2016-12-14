@@ -1,0 +1,105 @@
+body{
+		background-size: cover;
+		font-family: tahoma;
+	}
+	.fixbox{
+		height: 50px;
+		width: 200px;
+	}
+	.img1{
+		width: 50%;
+		height: 85%;
+		margin: 0 0;
+		-webkit-transition: all .3s ease-in-out;
+  		-moz-transition: all .3s ease-in-out;
+  		-ms-transition: all .3s ease-in-out;
+  		-o-transition: all .3s ease-in-out;
+  		transition: all .3s ease-in-out;
+	}
+	.img1:hover{
+		width: 55%;
+		height: 90%;
+		-webkit-transition: all .3s ease-in-out;
+  		-moz-transition: all .3s ease-in-out;
+  		-ms-transition: all .3s ease-in-out;
+  		-o-transition: all .3s ease-in-out;
+  		transition: all .3s ease-in-out;
+	}
+	.img2{
+		width: 60%;
+		height: 60%;
+		margin: auto;
+		display: block;
+		margin-bottom: 15px;
+	}
+	/*.container {
+		margin: 200px auto;
+		width: 500px;
+		/*border: solid 1px;*/
+	.box{
+		margin: 140px auto;
+		width: 400px;
+		/*border: solid 1px;*/
+	}
+	form{
+		text-align: center;
+	}
+	input[type="text"]{
+		width: 210px;
+		height: 15px;
+		padding: 10px 10px;
+		border: 2px solid;
+		border-radius: 5px;
+		border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+		background-image: url('../img/usericon.png');
+    	background-position: 205px 8px; 
+    	background-repeat: no-repeat;
+    	background-size: 20px;
+	}
+	input[type="password"]{
+		width: 210px;
+		height: 15px;
+		padding: 10px 10px;
+		border: 2px solid;
+		border-radius: 5px;
+		border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+		background-image: url('../img/passicon.png');
+    	background-position: 205px 8px; 
+    	background-repeat: no-repeat;
+    	background-size: 20px;
+	}
+	input[type="submit"]{
+		background-color: white; 
+		color: #f55465;;
+		
+		margin-top: 10px;
+		width: 233px;
+		height: 30px;
+		border: 2px solid;
+		border-radius: 5px;
+		border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	input[type="submit"]:hover{
+		background-color: #f55465;
+		color: white;
+	}
+	.error{
+		position: absolute;
+		text-align: center;
+		top: 220px;
+		margin-left: 120px;
+		color: white;
+		font-family: tahoma;
+		font-size: 12px;
+	}
+	.error2{
+		position: absolute;
+		text-align: center;
+		top: 220px;
+		margin-left: 140px;
+		color: white;
+		font-family: tahoma;
+		font-size: 12px;
+	}
